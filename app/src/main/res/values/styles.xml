@@ -1,0 +1,46 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+
+<!--        floatingActionButton-->
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+        <item name="colorOnSurface">@color/colorOnSurface</item>
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.App.SmallComponent</item>
+    </style>
+
+
+    <style name="ShapeAppearance.App.SmallComponent" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">4dp</item>
+    </style>
+
+
+
+<!--    <style name="Theme.App" parent="Theme.MaterialComponents.Light.NoActionBar">-->
+<!--        <item name="extendedFloatingActionButtonStyle">@style/Widget.App.ExtendedFloatingActionButton</item>-->
+<!--        <item name="floatingActionButtonStyle">@style/Widget.App.FloatingActionButton</item>-->
+<!--    </style>-->
+
+<!--    <style name="Widget.App.ExtendedFloatingActionButton" parent="Widget.MaterialComponents.ExtendedFloatingActionButton.Icon">-->
+<!--        <item name="materialThemeOverlay">@style/ThemeOverlay.App.FloatingActionButton</item>-->
+<!--        <item name="shapeAppearanceOverlay">@style/ShapeAppearance.App.SmallComponent</item>-->
+<!--    </style>-->
+
+<!--    <style name="Widget.App.FloatingActionButton" parent="Widget.MaterialComponents.FloatingActionButton">-->
+<!--        <item name="materialThemeOverlay">@style/ThemeOverlay.App.FloatingActionButton</item>-->
+<!--        <item name="shapeAppearanceOverlay">@style/ShapeAppearance.App.SmallComponent</item>-->
+<!--    </style>-->
+
+<!--    <style name="ThemeOverlay.App.FloatingActionButton" parent="">-->
+<!--        <item name="colorSecondary">@color/shrine_pink_100</item>-->
+<!--        <item name="colorOnSecondary">@color/shrine_pink_900</item>-->
+<!--        <item name="colorOnSurface">@color/shrine_pink_900</item>-->
+<!--    </style>-->
+<!--    -->
+</resources>
