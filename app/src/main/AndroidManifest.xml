@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".view_outline_provider.ViewOutlineProviderActivity"></activity>
+        <activity android:name=".skillbrain.SkillbrainActivity"></activity>
+        <activity android:name=".view_outline_provider.ViewOutlineProviderActivity" />
         <activity android:name=".add_a_floating_action_button.AddFloatingActionActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
